@@ -11,7 +11,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.4",
     "siteFonts": [],
-    "uniqCompNum": 66,
+    "uniqCompNum": 76,
     "versionPublish": "4.10.4",
     "screenshot": "screenshot.png"
   },
@@ -67,7 +67,7 @@
                 "title": "科研尝试",
                 "contentAlign": "center",
                 "text": "随着理论学习逐渐深入，阅读文献的范围越来越广，效率也越来越高，我一定程度上跟着老师和其他学术大咖的脚步进行了一些学术思考和科研尝试。",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">了解更多</a> "
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">学习经历</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">科研尝试</a> "
               }
             ]
           },
@@ -115,10 +115,10 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "MODERN STYLES",
+          "title": "笃定 澄明 初心",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "text": "<p>无论社会怎么变化，希望自己能够保留一份在奔跑中坚守的笃定，一份在混沌中不畏浮云的澄明，一份在躁动中自持的初心</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">KEEP MOVING</a>",
           "_tags": [
             "主题"
           ],
@@ -166,7 +166,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Page 1",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -190,27 +190,74 @@
           }
         },
         {
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#000000",
+              "font-size": "36px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "text-align": "center"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#000000"
+            },
+            ".mbr-article P": {
+              "text-align": "center"
+            }
+          },
           "_params": {
-            "showMeta": true
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "imageSize": "33",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "headerAlign": "center",
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/mmexport1545433313139-1-800x533.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "active": true
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
           },
           "title": "卢功靖",
-          "meta": "824829880@qq.com<br>湖北省武汉市洪山区华中科技大学韵苑",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>824829880@qq.com</p><p>湖北省武汉市洪山区华中科技大学韵苑</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
           "_tags": [
             "主题"
           ],
-          "_name": "header3",
-          "_anchor": "header3-p",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            },
-            "H3": {
-              "text-align": "center",
-              "font-size": "36px",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
-            }
-          }
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-1x"
         },
         {
           "_styles": {
@@ -237,7 +284,7 @@
             "showCaption": "noCaption",
             "showText": true,
             "showButton": false,
-            "paddingTop": "1",
+            "paddingTop": "0",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
@@ -304,15 +351,15 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "实习经历",
+          "title": "学习成绩",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>·新京报社会部（2018年2月-2018年8月）</p><p>·长江日报经济部（2017年5月-2017年7月）</p><p>·南方周末（2016年4月-2016年7月）</p>",
+          "text": "<p>前五学期最终成绩为88.23，排名为11/57，共有27门课程分数在90分以上，并在深度报道写作（100）、新闻评论（96）、媒介批判理论（96）等多门核心课程中取得高分。</p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SEE ALL TEMPLATES</a>",
           "_tags": [
             "主题"
           ],
           "_name": "msg-box3",
-          "_anchor": "msg-box3-10"
+          "_anchor": "msg-box3-v"
         },
         {
           "_styles": {
@@ -355,15 +402,66 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "学习成绩",
+          "title": "实习经历",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>前五学期最终成绩为88.23，排名为11/57，共有27门课程分数在90分以上，并在深度报道写作（100）、新闻评论（96）、媒介批判理论（96）等多门核心课程中取得高分。</p>",
+          "text": "<p>·新京报社会部（2018年2月-2018年8月）</p><p>·长江日报经济部（2017年5月-2017年7月）</p><p>·楚天都市报（2016年4月-2016年7月）</p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SEE ALL TEMPLATES</a>",
           "_tags": [
             "主题"
           ],
           "_name": "msg-box3",
-          "_anchor": "msg-box3-v"
+          "_anchor": "msg-box3-10"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "left",
+              "font-size": "30px"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            },
+            ".mbr-article P": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-size": "18px",
+              "text-align": "left"
+            },
+            ".mbr-article": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showCaption": "noCaption",
+            "showText": true,
+            "showButton": false,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "darkBackground": false,
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "所获荣誉",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>·国家励志奖学金</p><p>·范敬宜新闻教育奖</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-1y"
         },
         {
           "_styles": {
@@ -623,9 +721,9 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "笃定 澄明 初心",
+          "title": "环境在变 价值不变",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>无论社会怎么变化，希望自己能够保留一份在奔跑中坚守的笃定，一份在混沌中不畏浮云的澄明，一份在躁动中自持的初心</p>",
+          "text": "<p>尽管随着技术革新，媒介形式、媒体环境千变万化，传统媒体和媒体人都经历着转型焦虑，但我觉得新媒体时代的新闻人所应具有的素质也是如此，无论时代如何变化，人们对有质量、有价值的信息需求不变，人们仍然原因倾听一个好的故事，去接受新的知识，了解事实的真相。</p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Kepp moving</a>",
           "_tags": [
             "主题"
@@ -868,9 +966,9 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "笃定 澄明 初心",
+          "title": "知是行之始 行是知之成",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>无论社会怎么变化，希望自己能够保留一份在奔跑中坚守的笃定，一份在混沌中不畏浮云的澄明，一份在躁动中自持的初心</p>",
+          "text": "学新闻的我们不仅要有敏锐的新闻直觉，更要有开拓的事业和扎实的背景知识。无论如何，永远保持一颗求知的心吧！",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Kepp moving</a>",
           "_tags": [
             "主题"
@@ -984,6 +1082,113 @@
               "color": "#000000"
             }
           }
+        }
+      ]
+    },
+    "page5.html": {
+      "settings": {
+        "meta_descr": "Website Creator Description",
+        "title": "Page 5",
+        "order": 4
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3C3C3C",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "学习经历",
+          "text": "学到头秃！",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">START A JOURNEY</a>",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-1z"
+        },
+        {
+          "text": "<p><b>与新闻传播学结缘对我来说，开始尝试新闻写作，却是从高中开始。虽然我是一名文科生，但却更偏好理工科的玩意儿，填报志愿时发现喜欢的计算机、信息技术等学科都仅限理科生，只能就此放弃。在此时恰好看了柴静的《穹顶之下》《看见》和白岩松的《痛并快乐着》，仿佛就打开了新的世界。</b></p>",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            },
+            "DIV": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content1-20"
+        },
+        {
+          "text": "<p><b>在工科学校学习人文社科，有机遇也有挑战。学院开设的课程经常会尝试融入计算机学科、信息技术学科等的内容，以此来培养交叉领域、兼具文理素质的学生，开设了数字传播技术基础、计算机与程序设计基础、社会统计学实操等课程。虽然我对于计算机感兴趣，但刚开始仍是有较大的不适，那么多年养成的学习文科”背背背“的套路一下要改变，难免不适。在短暂的不适应后，我调整心态进行学习，上述上门学科均取得90分以上的分数。</b></p>",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            },
+            "DIV": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content1-21"
+        },
+        {
+          "text": "<p><b>我也十分清楚自己存在”偏科“的现象，课程成绩”两极分化“，部分不大感兴趣的课程只有70、80分。因此在看到大一惨不忍睹的加权后（仅有84.97），痛定思痛，大二、大三分别上升至88.33和90.92，大四成绩维持在88.29，总加权成绩为87.76，排名11/56。总共有30门课程在90分以上，其中新闻评论（95）、中外新闻评论（100）、互联网应用模式与战略（96）、深度报道（92）等多门核心课程都取得较为理想的成绩。</b></p>",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "DIV": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content1-22"
+        },
+        {
+          "text": "<p><b>在学习专业同时，我也开始了对编程的学习。计算传播学要求学生有一定的编程与技术能力，学习python也是必须的。我在bilibili网站上跟着一个200课时视频进行学习，目前学习进度已经70%了。</b></p><p><br></p>",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            },
+            "DIV": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content1-23"
         }
       ]
     }
